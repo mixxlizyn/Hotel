@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.vertical-line {
+    width: 0px;
+    height: 80%;
+
+    border: 1px black inset;
+}
+
+body {
+    text-align: center;
+}
+
+.name h2 {
+    color: #000;
+    font-family: 'Rakkas', serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.admin1-nav .links {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.admin1-nav .links .menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.admin1-nav .links .menu a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+}
+
+.admin1-nav {
+    padding: 20px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B6E55;
+    height: 50px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.admin1-nav>h1 {
+    color: #FFF;
+    font-family: 'Rakkas', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.admin1-nav .links .admin {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    height: 40px;
+}
+
+.admin1-nav .links .admin a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Rakkas;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+
+}
+
+h2 {
+    margin: 50px 0 50px 0;
+    color: #000;
+    font-family: Rakkas;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.redact {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 1100px;
+    border-radius: 8px;
+    background: rgba(139, 110, 85, 0.47);
+    gap: 50px;
+}
+
+.redact .img_redact {
+    display: flex;
+    justify-content: center;
+}
+
+.redact .text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #000;
+    /* text-align: right; */
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.redact .text .btn-txt {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.redact .text .btn-txt button {
+    width: 200px;
+    height: 92px;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}

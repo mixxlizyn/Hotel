@@ -1,0 +1,20 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.apartments{
+    background-image: url(images/nomer.png);
+    background-repeat: no-repeat;
+    height: 3969px;
+}
+.menu-p{
+    color: #fff;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}

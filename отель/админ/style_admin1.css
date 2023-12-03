@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div.vertical-line {
+    width: 0px;
+    height: 80%;
+
+    border: 1px black inset;
+}
+
+body {
+    text-align: center;
+}
+
+.name h2 {
+    color: #000;
+    font-family: 'Rakkas', serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.admin1-nav .links {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.admin1-nav .links .menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.admin1-nav .links .menu a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+}
+
+.admin1-nav {
+    padding: 20px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B6E55;
+    height: 50px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.admin1-nav>h1 {
+    color: #FFF;
+    font-family: 'Rakkas', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.admin1-nav .links .admin {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    height: 40px;
+}
+
+.admin1-nav .links .admin a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Rakkas;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+
+}
+
+h2 {
+    margin: 50px 0 50px 0;
+    color: #000;
+    font-family: Rakkas;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: solid;
+    background-color: #F3F3F3;
+
+
+}
+
+.center {
+    display: flex;
+    justify-self: center;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+.green {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.green a {
+    color: #B1CC33;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.green span a {
+    color: #DD2E44;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+.viborka {
+    width: 255px;
+    border: #000 1px solid;
+    height: 334px;
+    flex-shrink: 0;
+    background-color: #F3F3F3;
+    color: #000;
+    text-align: right;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-align: left;
+    padding: 20px;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+li {
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-image: url(/админ/images/Rectangle26.png);
+}
+
+.str {
+    margin-top: 80px;
+}
+
+.str>a {
+    color: #000;
+    font-size: 20px;
+    margin-left: 10px;
+}

@@ -1,0 +1,48 @@
+.popup {
+    background-color: #8B6E55;
+    height: 920px;
+    width: 100%;
+}
+
+.popup>.close {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 40px 0 160px;
+
+}
+
+.popup>.close>a>img {
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.popup>.close>p {
+    text-decoration: none;
+    color: #000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.popup ul {
+    margin-left: 10%;
+    list-style-type: none;
+}
+
+.popup ul>li>a {
+    color: rgba(0, 0, 0, 0.41);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin: 10px 0 1000px 0;
+    text-decoration: none;
+}
+
+.popup ul>li>a:hover {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline white solid 3px;
+}
+

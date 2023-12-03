@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    height:1980px;
+    background-image: url(images/главная1.png);
+} 
+.line {
+    width: 100%;
+    height: 20px;
+    background-color: #000;
+    position: fixed;
+}
+
+nav {
+    height: 18%;
+}
+
+nav>.info {
+    padding: 40px 80px 0 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav>.info>h2 {
+    font-family: 'Rakkas', serif;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav>.info>.menu {
+    color: #000;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+
+header {
+    padding: 0 80px 0 80px;
+    /* height: 400px; */
+    
+}
+
+header h1 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+main {
+    height: 965px;
+
+}
+footer{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+footer h3{
+    color: #FFF;
+font-family: Rakkas;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+footer p{
+    color: #FFF;
+text-align: center;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px; /* 200% */
+letter-spacing: 3px;
+text-transform: uppercase;
+}
+footer .social{
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+footer .social .circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+background-color: #000;
+}
+
+footer .prava{
+    padding: 0 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+footer .prava p{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
+
+footer .prava span{
+    display: flex;
+    gap: 20px;
+}
+footer .prava span p{
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 200% */
+}
