@@ -1,0 +1,240 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-repeat: no-repeat;
+    height: 1980px;
+    background-image: url(../images/главная1.png);
+}
+
+.line {
+    width: 100%;
+    height: 20px;
+    background-color: #000;
+    position: fixed;
+}
+
+nav {
+    height: 18%;
+}
+
+nav>.info {
+    padding: 40px 80px 0 0px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav>.info>h2 {
+    font-family: 'Rakkas', serif;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+nav>.info>.menu {
+    color: #000;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: flex;
+    gap: 25px;
+    text-align: center;
+}
+
+header {
+    padding: 0 80px 0 80px;
+
+}
+
+header h1 {
+    color: #FFF;
+    font-family: Raleway;
+    font-size: 180px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+header p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 2px;
+}
+
+main {
+    height: 965px;
+
+}
+
+footer {
+
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+footer h3 {
+    color: #FFF;
+    font-family: Rakkas;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+footer p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+footer .social {
+    display: flex;
+    justify-content: center;
+    gap: 1%;
+}
+
+footer .social .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+footer .prava {
+    padding: 0 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .prava p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+}
+
+footer .prava span {
+    display: flex;
+    gap: 20px;
+}
+
+footer .prava span p {
+    color: rgba(255, 255, 255, 0.50);
+    font-family: DM Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    /* 200% */
+}
+
+/* Модальное окно1 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    overflow: auto;
+    background-color: #8b6e55;
+    height: 950px;
+    width: 100%;
+    padding: 2% 0 0 0;
+}
+
+.modal-content {
+    display: flex;
+    padding: 100px 20px 20px 20px;
+    width: 90%;
+}
+
+.modal-content ul {
+    list-style: none;
+    margin: 0;
+    margin-left: 10%;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.modal-content li {
+    cursor: pointer;
+    float: left;
+    display: inline;
+    border-left: 1px solid #eee;
+    padding: 0px 25px 0px 25px;
+}
+
+.modal-content li:first-child {
+    border: none;
+}
+
+.modal-content li span {
+    display: block;
+    transition: .3s;
+}
+
+.modal-content ul>li>a {
+    color: rgba(0, 0, 0, 0.41);
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    margin: 10px 0 1000px 0;
+    text-decoration: none;
+}
+
+.modal-content ul>li>a:hover {
+    color: #FFF;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: underline white solid 3px;
+}
+
+
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 60px;
+    font-weight: bold;
+    padding-right: 2%;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
