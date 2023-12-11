@@ -1,0 +1,312 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div.vertical-line {
+    width: 0px;
+    height: 80%;
+
+    border: 1px black inset;
+}
+
+body {
+    text-align: center;
+}
+
+.name h2 {
+    color: #000;
+    font-family: 'Rakkas', serif;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.admin1-nav .links {
+    display: flex;
+    gap: 30px;
+    text-align: center;
+}
+
+.admin1-nav .links .menu {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+}
+
+.admin1-nav .links .menu a {
+    margin-top: 10px;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+    font-family: 'Jost', sans-serif;
+}
+
+.admin1-nav {
+    padding: 20px 80px 0 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #8B6E55;
+    height: 50px;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.admin1-nav>h1 {
+    color: #FFF;
+    font-family: 'Rakkas', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.admin1-nav .links .admin {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #000;
+    height: 40px;
+}
+
+.admin1-nav .links .admin a {
+    text-decoration: none;
+    color: #FFF;
+    font-family: Rakkas;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+
+}
+
+h2 {
+    margin: 50px 0 50px 0;
+    color: #000;
+    font-family: Rakkas;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+table {
+    border-collapse: collapse;
+    border-style: solid;
+    background-color: #F3F3F3;
+
+
+}
+
+.center {
+    display: flex;
+    justify-self: center;
+}
+
+tr {
+    height: 50px;
+}
+
+td {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    width: 250px;
+    height: 100px;
+    text-align: center;
+}
+
+.green {
+    padding-left: 10px;
+    text-align: left;
+}
+
+.green a {
+    color: #B1CC33;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+
+}
+
+.green span a {
+    color: #DD2E44;
+    font-family: Josefin Sans;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    text-decoration: none;
+}
+
+hr {
+    margin: 20px 0;
+}
+
+li {
+    margin: 20px;
+    margin-bottom: 20px;
+}
+
+.str {
+    margin-top: 80px;
+}
+
+.str>a {
+    color: #000;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.admin2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.redact {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    height: 550px;
+    width: 1100px;
+    border-radius: 8px;
+    background: rgba(139, 110, 85, 0.47);
+    gap: 50px;
+}
+
+.redact .img_redact {
+    display: flex;
+    justify-content: center;
+}
+
+.redact .text {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: #000;
+    /* text-align: right; */
+    font-family: Merriweather;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.redact .text .btn-txt {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.redact .text .btn-txt button {
+    width: 200px;
+    height: 92px;
+    flex-shrink: 0;
+    background-color: rgba(0, 0, 0, 0);
+    color: #000;
+    text-align: center;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.redact .text .btn-txt button:hover {
+    background-color: #ffffff;
+}
+
+.container {
+    margin-top: 50px;
+    width: 600px;
+    height: 700px;
+    flex-shrink: 0;
+    background-color: #C8BBAF;
+    border-radius: 20px;
+    border: #000 2px solid;
+    padding: 20px 40px 0 60px;
+
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+label {
+    font-family: Jost;
+    font-size: 20px;
+}
+
+.logout {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.logout a {
+    font-size: 16px;
+    color: #000;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+    text-decoration: none;
+
+
+}
+
+.logout a:hover {
+    text-decoration: underline;
+    transform: scale(1.2);
+}
+
+button {
+    width: 100px;
+    height: 45px;
+    border-radius: 6px;
+    border: 1px solid #000;
+    background: #FFF;
+    font-size: 16px;
+    color: #000;
+    font-family: Jost;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #FFF;
+    background-color: #000;
+}
+
+form {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
