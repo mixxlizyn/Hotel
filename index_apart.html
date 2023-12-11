@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../images\stone-tower_38836.ico">
+    <link rel="stylesheet" href="../style/style_apart.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Marienburg</title>
+</head>
+
+<body>
+    <div class="apartments">
+        <nav>
+            <div class="line"></div>
+            <div class="info">
+                <h2>MARIENBURG</h2>
+                <div class="menu">
+                    <p class="menu-p">Меню
+                    </p>
+                    <button onclick="openModal1()"><img src="../images/меню3.png"></button>
+                </div>
+            </div>
+        </nav>
+        <header>
+            <h1>MARIENBURG</h1>
+            <p>Наш отель предлагает вам шикарные номера со всеми<br>удобствами и услугами.<br>
+                Всего у нас 30 номеров.</p>
+        </header>
+        <main>
+            <div class="block_1">
+                <img class="img_1" src="../images\num1.png">
+                <div class="transparent_1">
+                    <a href="index3.html">
+                        <h1 class="text_1">Одноместный<br>стандарт</h1>
+                    </a>
+                    <p class="text_2">Шикарный номер с удобствами<br>для одного гостя.<br>Пользуется спросом у ценителей
+                        и тех,<br>кто приехал посмотреть на красоту 18 века.</p>
+                    <p class="text_3">32 000 <img class="img_2" src="../images\Group.png"> / ночь</p>
+                    <button onclick="openModal()" class="cnopka">Забронировать</button>
+                </div>
+            </div>
+
+            <div class="block_2">
+                <img class="img_3" src="../images\num2.png ">
+                <div class="transparent_2">
+                    <h1 class="text_4">Двухместный<br>стандарт</h1>
+                    <p class="text_5">Элегантный, просторный номер для<br>комфортного проживания двоих
+                        гостей.<br>Пользуется спросом у ценителей и тех,<br>возможно размещение одного человека.<br></p>
+                    <p class="text_6">35 000 <img class="img_4" src="../images\Group.png"> / ночь</p>
+                    <button onclick="openModal()" class="cnopka">Забронировать</button>
+                </div>
+            </div>
+
+            <div class="block_3">
+                <img class="img_5" src="../images\num3.png ">
+                <div class="transparent_3">
+                    <h1 class="text_7">Люкс</h1>
+                    <p class="text_8">Один из самых престижных видов<br>номеров для состоятельный клиентов.<br>Обладает
+                        особенно живописным видом из окна<br></p>
+                    <p class="text_9">40 000 <img class="img_6" src="../images\Group.png"> / ночь</p>
+                    <button onclick="openModal()" class="cnopka">Забронировать</button>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <footer>
+        <h3>MARIENBURG</h3>
+        <p>Social</p>
+        <div class="social">
+
+            <div class="circle"> <img src="../images/соц2.png" alt=""></div>
+            <div class="circle"> <img src="../images/соц1.png" alt=""></div>
+            <div class="circle"> <img src="../images/соц3.png" alt=""></div>
+        </div>
+        <div class="prava">
+            <p>Copyright © 2023 Laaqiq. All Rights Reserved.</p>
+            <span>
+                <p>Terms of Use</p>
+                <p>Privacy Policy</p>
+            </span>
+        </div>
+    </footer>
+    <div id="bookingModal" class="modal">
+
+        <div class="modal-content">
+            <span onclick="closeModall()" style="float: right; cursor: pointer;">&times;</span>
+            <div class="header">
+
+                <h2>Выберите даты заезда, выезда</h2>
+                <hr>
+            </div>
+            <div class="main">
+                <div class="form">
+                    <div class="one-column">
+                        <label for="checkInDate">Дата заезда</label>
+                        <input type="date" id="checkInDate">
+                    </div>
+                    <div class="two-column">
+                        <label for="checkOutDate">Дата выезда</label>
+                        <input type="date" id="checkOutDate">
+                    </div>
+                </div>
+                <hr>
+                <a href="#">Нужен <b>еще 1</b>номер</a>
+                <hr>
+                <button onclick="bookRoom()" class="btn-cl">Забронировать</button>
+            </div>
+        </div>
+    </div>
+    <div id="myModal" class="modal1">
+        <span class="close">&times;</span>
+        <div class="modal-content1">
+            <ul>
+                <li><a href="index_main.html"><span>Главная</span></a></li>
+                <li><a href="index_user.html">Личный кабинет</a></li>
+                <li><a href="index_apart.html"><span>Номера</span></a></li>
+                <li><a href="index_registr.html"><span>Вход Регистрация</span></a></li>
+
+            </ul>
+        </div>
+    </div>
+    <script>
+        function openModal() {
+            document.getElementById('bookingModal').style.display = 'block';
+        }
+
+        function closeModall() {
+            document.getElementById('bookingModal').style.display = 'none';
+        }
+
+        function bookRoom() {
+            var checkInDate = document.getElementById('checkInDate').value;
+            var checkOutDate = document.getElementById('checkOutDate').value;
+
+            console.log('Room booked from ' + checkInDate + ' to ' + checkOutDate);
+            closeModal();
+        }
+
+
+        function openModal1() {
+            document.getElementById("myModal").style.display = "block";
+        }
+
+        function closeModal() {
+            document.getElementById("myModal").style.display = "none";
+        }
+
+        document.querySelector(".close").addEventListener("click", closeModal);
+
+        window.addEventListener("click", function (event) {
+            if (event.target == document.getElementById("myModal")) {
+                closeModal();
+            }
+        });
+    </script>
+</body>
+
+</html>
